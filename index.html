@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -19,9 +20,9 @@
             <li><a href="">PROJECTS</a></li>
             <li><a href="#serv">SERVICES</a></li>
             <li class="dropdown">
-                <a href="" class="dropbtn">ABOUT</a>
+                <a href="#adv" class="dropbtn">ABOUT</a>
                 <div class="dropdown-content">
-                    <a href="">OUR ADVANTAGES</a>
+                    <a href="#first">OUR ADVANTAGES</a>
                     <a href="">OUR TEAM</a>
                     <a href="">OUR CLIENTS</a>
                     <a href="">OUR BLOG</a>
@@ -32,30 +33,6 @@
         <li id="title"><a href="">IMPREZA</a></li>
     </ul>
     <!-------------------------------------------------------------------->
-    <div class="sasha">
-        <div class="animationarea">
-            <ul class="boxarea">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <div class="textbut">
-                    <h1 class="t1"> ONEPAGE AGENCY DEMO</h1>
-                    <button type="button" id="btn1">
-                        <p class="project">PROJECTS</p>
-                    </button>
-                    <button type="button" id="btn2">
-                        <p class="aboutus">ABOUT US</p>
-                    </button>
-                </div>
-            </ul>
-        </div>
-    </div>
-    <svg>
-        <polygon fill="white" points="(50,50) (200,50) (200,10) " />
-    </svg>
     <!---------------------------OUR SERVICES----------------------------->
     <!-------------------------------------------------------------------->
     <h3 id="serv"><span style="color: #ffa633;">OUR </span>SERVICES</h3>
@@ -94,21 +71,27 @@
     <!----------------------------------------------------------------------------->
     <!---------------------------ABOUT: OUR ADVANTAGES----------------------------->
     <!----------------------------------------------------------------------------->
+    <!-- <div class="parent">
+        <img class="image2" src="triangle.png" />
+    </div> -->
     <div class="parent">
         <img class="image1" src="image2.jpg" />
-        <img class="image2" src="triangle.png" />
     </div>
-    <h3 id="adv">Impreza is a creative agency dedicated
-        <br> to create meaningful projects
-    </h3>
+
     <div class="views">
+        <h3 id="adv">Impreza is a creative agency dedicated
+            <br> to create meaningful projects
+        </h3>
         <a href=""> <i class="fa fa-soccer-ball-o"></i> View Our
             Team</a>
 
         <a href=""> <i class="fa fa-comments"></i> View
             Testimonials</a>
     </div>
-    <table class="unirow">
+    <svg id="poly" height="100%" width="100%">
+        <polygon points="0,0 0,100 1500,100 1500,0 730,100 " style="fill:white;fill-rule:nonzero;" />
+    </svg>
+    <table id="first" class="unirow">
         <tr>
             <td>
                 <i id="highlight1" class="fa fa-rocket"></i>
@@ -144,7 +127,5 @@
     </table>
     <!----------------------------------------------------------------------------->
 </body>
-
-<script src="script.js"></script>
 
 </html>

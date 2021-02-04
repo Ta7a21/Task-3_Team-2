@@ -1,108 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.textbut {
-  margin: 250px;
-}
-.t1 {
-  text-align: center;
-  font-size: 40px;
-  color: white;
-}
-#btn1 {
-  border-radius: 6px;
-  margin-left: 90px;
-  background-color: orange;
-  width: 150px;
-  height: 60px;
-}
-.project {
-  color: white;
-  font-family: fantasy;
-  font-size: 18px;
-}
-#btn2 {
-  border-radius: 6px;
-  background-color: white;
-  width: 150px;
-  height: 60px;
-}
-.aboutus {
-  color: black;
-  font-family: fantasy;
-  font-size: 18px;
-}
-.animationarea {
-  background: linear-gradient(to left, #8942a8, #ba382f);
-  width: 100%;
-  height: 100vh;
-}
-.boxarea {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.boxarea li {
-  position: absolute;
-  display: block;
-  list-style: none;
-  width: 25px;
-  height: 25px;
-  background: rgb(255, 255, 255, 0.2);
-  animation: animate 20s linear infinite;
-  bottom: -150px;
-}
-.boxarea li:nth-child(1) {
-  left: 86%;
-  width: 80px;
-  height: 80px;
-  animation-delay: 0s;
-}
-.boxarea li:nth-child(2) {
-  left: 12%;
-  width: 30px;
-  height: 30px;
-  animation-delay: 1.5s;
-  animation-duration: 10s;
-}
-.boxarea li:nth-child(3) {
-  left: 70%;
-  width: 100px;
-  height: 100px;
-  animation-delay: 5.5s;
-}
-.boxarea li:nth-child(4) {
-  left: 70%;
-  width: 150px;
-  height: 150px;
-  animation-delay: 0s;
-  animation-duration: 15s;
-}
-.boxarea li:nth-child(5) {
-  left: 65%;
-  width: 40px;
-  height: 40px;
-  animation-delay: 0s;
-}
-.boxarea li:nth-child(6) {
-  left: 15%;
-  width: 110px;
-  height: 110px;
-  animation-delay: 3.5s;
-}
-@keyframes animate {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-800px) rotate(360deg);
-    opacity: 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -116,7 +13,6 @@ body {
   justify-content: center;
   text-align: center;
   margin: 0;
-  scroll-behavior: smooth;
   /* padding-top: 60px; */
 }
 
@@ -161,6 +57,10 @@ div li a {
 li a:hover {
   color: #ffa633;
   transition: 0.3s;
+}
+
+svg {
+  margin-top: 93px;
 }
 
 .dropbtn {
@@ -235,7 +135,7 @@ li a:hover {
 .unirow {
   table-layout: fixed;
   position: relative;
-  top: 190px;
+  top: 0px;
   width: 1150px;
   height: 400px;
   margin-left: auto;
@@ -273,9 +173,9 @@ li a:hover {
   left: 0;
   display: block;
   width: 100%;
+  height: 520px;
   z-index: -1;
   object-fit: cover;
-  height: 500px;
   opacity: 0.6;
 }
 .image2 {
@@ -292,6 +192,8 @@ li a:hover {
 }
 
 .views a {
+  animation: ease-ou;
+  transition: 0.7s;
   color: #ffa633;
   padding: 5px;
   text-decoration: none;
