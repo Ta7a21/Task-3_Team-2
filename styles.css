@@ -574,7 +574,35 @@ color: orange;
    }
 /* ------------------------------------------------------------- */
 /* --------------------------------------------------------------------------- */
+/* ------------------------------show more---------------------------------- */
+#more {display: none;}
 
+.btn {
+
+  border: none;
+  font-size: inherit;
+  color: inherit;
+
+  background: none;
+  cursor: pointer;
+
+  display: inline-block;
+  color: orange;
+  
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  padding-bottom: 150px;
+
+}
+
+
+.btn:hover {
+  color: black;
+}
+/* ------------------------------------------------------------- */
 /*-------------------------------------------------------------sites---------------------------------------------------------------------------------------------*/
 #spandisp
 {
