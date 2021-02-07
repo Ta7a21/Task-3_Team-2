@@ -483,27 +483,31 @@ padding-bottom: -20px;
 
 }
 
-
 .Our-client-right
 {
   position: absolute;
-  top: 50%;
-  right: -5%;
-  transform: translate(-44%,1700%);
+  top: 453%;
+  right: 10%;
   font-family: serif;
-  color: #fff;
+  color: #000;
   font-size: 50px;
 }
 
 .Our-client-left
 {
   position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-25%,1700%);
+  top: 453%;
+  left: 10%;
   font-family: serif;
   color: #fff;
   font-size: 50px;
+
+}
+
+#client{
+margin-left: -100%;
+font-size: 60px;
+color: orange;
 }
 
 
