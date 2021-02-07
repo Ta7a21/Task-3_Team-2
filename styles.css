@@ -508,9 +508,73 @@ margin-left: -100%;
 font-size: 60px;
 color: orange;
 }
+/* ------------------------------------------------------------- */
 
 
+/* -----------about : LATEST POSTS----------------------------- */
+.pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  
+  }
+
+.latest{
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+
+    width: 48%;
+    
+    padding: 10px;
+    height: 200px;
+    
+  }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 90px;
+  }
+
+
+  .blog-post{
+
+    display: flex ;
+    flex-direction:row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center; 
+  }
+  .blog-post-info{
+    flex: 2;
+    padding: 15px;
+    
+    padding-right: -1%;
+    margin-right: 65px;
+
+  }
+  .blog-post-title h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 100px;
+  }
+
+  .posts {color: gray;
+    font-size: 16px;
+    text-decoration: none ;
+    }
+    .posts:hover {color: black;
+   }
+
+   .l-client{
+     text-decoration: none;
+   }
+/* ------------------------------------------------------------- */
 /* --------------------------------------------------------------------------- */
+
 /*-------------------------------------------------------------sites---------------------------------------------------------------------------------------------*/
 #spandisp
 {
