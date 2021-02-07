@@ -420,6 +420,96 @@ svg {
     align-items: center;
   }
 /* --------------------------*------------------------------------ */
+/* <!-------------------------------------------------------------------------------------->
+<!------------------------------our-client-----------------------------------------------> */
+.c-title{
+
+}
+.client{
+  height: 500px;
+  width: 100%;
+  padding-bottom: 340px;
+  width: 100%;
+  background-image:url("Our\ Client_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  animation: animatebottom 1s;
+}
+
+.c-title{
+  top: 15%;
+  left: 33%;
+  transform: translate(0%,290%);
+  font-family: serif;
+  color: #fff;
+  font-size: 50px;
+  
+}
+
+.content {
+  background-color: #fff;
+  color: #000;
+  height: 150px;
+  padding-top: 130px;
+  position: relative;
+  width: 100%;
+  padding-top:150px ;
+ 
+}
+
+
+.content :before {
+position: absolute;
+content: " ";
+width: 60%;
+height: 125px;
+top: -50px;
+left: 0;
+background: #fff;
+transform: skewY(10deg);
+padding-bottom: -20px;
+
+}
+
+.content :after {
+  position: absolute;
+  content: " ";
+  width: 60%;
+  height: 125px;
+  top: -50px;
+  right: 0;
+  background: #fff;
+  transform: skewY(-10deg);
+  margin-bottom: 100px;
+
+}
+
+
+.Our-client-right
+{
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translate(-44%,1700%);
+  font-family: serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+.Our-client-left
+{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-25%,1700%);
+  font-family: serif;
+  color: #fff;
+  font-size: 50px;
+}
+
+
+/* --------------------------------------------------------------------------- */
 /*-------------------------------------------------------------sites---------------------------------------------------------------------------------------------*/
 #spandisp
 {
