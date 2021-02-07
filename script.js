@@ -22,3 +22,22 @@ counters.forEach(counter => {
 	updateCounter();
 })
 // /* ------------------------------------------------------------- */
+// /* --------------------show more ----------------------------------------- */
+function myFunction() 
+{
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+  document.getElementById("myBtn").style.visibility = "hidden";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = ""; 
+    moreText.style.display = "inline";
+  }
+  
+  
+  
+}
+// /* ------------------------------------------------------------- */
