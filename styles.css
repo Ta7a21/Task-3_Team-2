@@ -705,6 +705,62 @@ svg {
   line-height: 27px;
   opacity: 1;
 }
+/* ------------------------------------------------------------- */
+/* --------------------------counter----------------------------------- */
+
+
+
+.counter {
+font-size: 60px;
+margin-top: 10px;
+}
+
+.l-column {
+  float: left;
+  width: 23.5%;
+  padding: 10px;
+  height: 250px;  
+  background-color: #F1B95C;
+  color: white;
+  padding-top: 65px;
+  padding-bottom: -70px;
+  background-attachment: fixed;
+
+  margin-top: -326px;
+
+  margin-right: 10px;
+  margin-left: 0  px;
+}
+.ll-column {
+  float:right;
+  width: 23.5%;
+  padding: 10px;
+  height: 250px;  
+  background-color:#F3A247;
+  color: white;
+
+  padding-top: 65px;
+  padding-bottom: -70px;
+  background-attachment: fixed;
+  margin-top: -326px;
+  margin-right: 612px;
+  margin-left: -40px;
+}
+
+  .l-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 90px;
+
+}
+.text-counter{
+  font-weight: normal;
+  font-size: 44px
+}
+
+
+/* ------------------------------------------------------------- */
 /*-----------------------------------------------------------------------msg form----------------------------------------------------------------------------*/
 #contact
 {
