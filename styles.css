@@ -426,7 +426,7 @@ svg {
 .client{
   height: 500px;
   width: 100%;
-  padding-bottom: 340px;
+  padding-bottom: 250 px;
   width: 100%;
   background-image:url("Our\ Client_1.jpg");
   background-size: cover;
@@ -436,9 +436,8 @@ svg {
 }
 
 .c-title{
-  top: 15%;
-  left: 33%;
-  transform: translate(0%,290%);
+  padding-top: 190px;
+
   font-family: serif;
   color: #fff;
   font-size: 50px;
